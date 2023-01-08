@@ -1,0 +1,88 @@
+D:\IPT project\bin\Debug\IPT project.exe.config
+D:\IPT project\bin\Debug\IPT project.exe
+D:\IPT project\bin\Debug\IPT project.pdb
+D:\IPT project\obj\Debug\IPT project.csproj.AssemblyReference.cache
+D:\IPT project\obj\Debug\IPT project.csproj.SuggestedBindingRedirects.cache
+D:\IPT project\obj\Debug\IPT_project.Properties.Resources.resources
+D:\IPT project\obj\Debug\IPT project.csproj.GenerateResource.cache
+D:\IPT project\obj\Debug\IPT project.csproj.CoreCompileInputs.cache
+D:\IPT project\obj\Debug\IPT project.exe
+D:\IPT project\obj\Debug\IPT project.pdb
+D:\IPT project\obj\Debug\IPT_project.Form1.resources
+D:\IPT project\obj\Debug\IPT_project.ItemUserControl.resources
+D:\IPT project\obj\Debug\IPT_project.BorrowedItemUserControl.resources
+D:\IPT project\obj\Debug\IPT_project.FineUserControl.resources
+C:\Users\USER\Desktop\IPT project\bin\Debug\IPT project.exe.config
+C:\Users\USER\Desktop\IPT project\bin\Debug\IPT project.exe
+C:\Users\USER\Desktop\IPT project\bin\Debug\IPT project.pdb
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT project.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT project.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT_project.BorrowedItemUserControl.resources
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT_project.FineUserControl.resources
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT_project.Form1.resources
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT_project.ItemUserControl.resources
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT_project.Properties.Resources.resources
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT project.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT project.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT project.exe
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT project.pdb
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.TeamFoundation.Common.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.VisualStudio.Services.Common.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.VisualStudio.Services.WebApi.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.TeamFoundation.Common.xml
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.VisualStudio.Services.Common.xml
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.xml
+C:\Users\USER\Desktop\IPT project\bin\Debug\Microsoft.VisualStudio.Services.WebApi.xml
+C:\Users\USER\Desktop\IPT project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\IPT project\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\USER\Desktop\IPT project\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\USER\Desktop\IPT project\bin\Debug\cs\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\de\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\es\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\fr\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\it\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\ja\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\ko\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\pl\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\pt-BR\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\ru\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\tr\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\zh-Hans\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\zh-Hant\Microsoft.TeamFoundation.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\cs\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\de\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\es\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\fr\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\it\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\ja\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\ko\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\pl\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\pt-BR\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\ru\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\tr\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\zh-Hans\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\zh-Hant\Microsoft.VisualStudio.Services.Common.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\cs\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\de\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\es\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\fr\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\it\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\ja\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\ko\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\pl\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\pt-BR\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\ru\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\tr\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\zh-Hans\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\bin\Debug\zh-Hant\Microsoft.VisualStudio.Services.WebApi.resources.dll
+C:\Users\USER\Desktop\IPT project\obj\Debug\IPT project.csproj.CopyComplete

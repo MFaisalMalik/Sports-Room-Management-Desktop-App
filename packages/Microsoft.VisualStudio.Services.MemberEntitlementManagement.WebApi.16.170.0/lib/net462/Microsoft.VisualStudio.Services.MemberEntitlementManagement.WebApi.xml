@@ -1,0 +1,760 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.OperationResult" -->
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.OperationResult.IsSuccess">
+            <summary>
+            Success status of the operation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.OperationResult.Errors">
+            <summary>
+            List of error codes paired with their corresponding error messages.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.OperationResult.Result">
+            <summary>
+            Result of the MemberEntitlement after the operation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.OperationResult.MemberId">
+            <summary>
+            Identifier of the Member being acted upon.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ExtensionSummaryData">
+            <summary>
+            Summary of Extensions in the organization.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ExtensionSummaryData.ExtensionName">
+            <summary>
+            Friendly name of this extension
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ExtensionSummaryData.ExtensionId">
+            <summary>
+            Gallery Id of the Extension
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ExtensionSummaryData.IsTrialVersion">
+            <summary>
+            Whether its a Trial Version.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ExtensionSummaryData.MinimumLicenseRequired">
+            <summary>
+            Minimum License Required for the Extension.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ExtensionSummaryData.RemainingTrialDays">
+            <summary>
+            Days remaining for the Trial to expire.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ExtensionSummaryData.TrialExpiryDate">
+            <summary>
+            Date on which the Trial expires.
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ExtensionSummaryData.AssignedThroughSubscription">
+            <summary>
+            Count of Extension Licenses assigned to users through msdn.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.PagedGraphMemberList">
+            <summary>
+            A page of users
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.PagedGraphMemberList.#ctor">
+            <summary>
+            Default constructor for serialization
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupOption">
+            <summary>
+            Group option to add a user to
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupOption.Group">
+            <summary>
+            Group
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupOption.AccessLevel">
+            <summary>
+            Access Level
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.LicenseSummaryData">
+            <summary>
+            Summary of Licenses in the organization.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.LicenseSummaryData.LicenseName">
+            <summary>
+            Name of the License.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.LicenseSummaryData.Source">
+            <summary>
+            Source of the License.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.LicenseSummaryData.MsdnLicenseType">
+            <summary>
+            Type of MSDN License.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.LicenseSummaryData.AccountLicenseType">
+            <summary>
+            Type of Account License.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.LicenseSummaryData.Disabled">
+            <summary>
+            Count of Disabled Licenses.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.LicenseSummaryData.TotalAfterNextBillingDate">
+            <summary>
+            Total license count after next billing cycle
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.LicenseSummaryData.NextBillingDate">
+            <summary>
+            Specifies the date when billing will charge for paid licenses
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.LicenseSummaryData.IsPurchasable">
+            <summary>
+            Designates if this license quantity can be changed through purchase
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.SummaryData.Total">
+            <summary>
+            Total Count.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.SummaryData.Available">
+            <summary>
+            Available Count.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.SummaryData.Assigned">
+            <summary>
+            Count of Licenses already assigned.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.SummaryData.IncludedQuantity">
+            <summary>
+            Quantity
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UsersSummary">
+            <summary>
+            Summary of licenses and extensions assigned to users in the organization
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UsersSummary.Licenses">
+            <summary>
+            Summary of Licenses in the organization
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UsersSummary.Extensions">
+            <summary>
+            Summary of Extensions in the organization
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UsersSummary.ProjectRefs">
+            <summary>
+            Summary of Projects in the organization
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UsersSummary.GroupOptions">
+            <summary>
+            Group Options
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UsersSummary.AvailableAccessLevels">
+            <summary>
+            Available Access Levels
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UsersSummary.DefaultAccessLevel">
+            <summary>
+            Default Access Level
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementOperationReference.HaveResultsSucceeded">
+            <summary>
+            True if all operations were successful.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementOperationReference.Completed">
+            <summary>
+            Operation completed with success or failure.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementOperationReference.Results">
+            <summary>
+            List of results for each operation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementOperationResult.IsSuccess">
+            <summary>
+            Success status of the operation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementOperationResult.Errors">
+            <summary>
+            List of error codes paired with their corresponding error messages.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementOperationResult.UserId">
+            <summary>
+            Identifier of the Member being acted upon.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementOperationResult.Result">
+            <summary>
+            Result of the MemberEntitlement after the operation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.BaseOperationResult.IsSuccess">
+            <summary>
+            Success status of the operation
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.BaseOperationResult.Errors">
+            <summary>
+            List of error codes paired with their corresponding error messages
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupOperationResult.Result">
+            <summary>
+            Result of the Groupentitlement after the operation
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupOperationResult.GroupId">
+            <summary>
+            Identifier of the Group being acted upon
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementsPatchResponse" -->
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementsPatchResponse.OperationResults">
+            <summary>
+            List of results for each operation
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementsResponseBase" -->
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementsResponseBase.IsSuccess">
+            <summary>
+            True if all operations were successful.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementsResponseBase.MemberEntitlement">
+            <summary>
+            Result of the member entitlement after the operations.
+            have been applied
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementsPostResponse" -->
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementsPostResponse.OperationResult">
+            <summary>
+            Operation result
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlement">
+            <summary>
+            Deprecated: Use UserEntitlement instead
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlement.Member">
+            <summary>
+            Member reference
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlement">
+            <summary>
+            A user entity with additional properties including their license, extensions, and project membership
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlement.Id">
+            <summary>
+            The unique identifier which matches the Id of the Identity associated with the GraphMember.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlement.User">
+            <summary>
+            User reference.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlement.AccessLevel">
+            <summary>
+            User's access level denoted by a license.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlement.LastAccessedDate">
+            <summary>
+            [Readonly] Date the user last accessed the collection.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlement.DateCreated">
+            <summary>
+            [Readonly] Date the user was added to the collection.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlement.ProjectEntitlements">
+            <summary>
+            Relation between a project and the user's effective permissions in that project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlement.Extensions">
+            <summary>
+            User's extensions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlement.GroupAssignments">
+            <summary>
+            [Readonly] GroupEntitlements that this user belongs to.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementsPatchResponse.OperationResults">
+            <summary>
+            List of results for each operation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementsPostResponse.OperationResult">
+            <summary>
+            Operation result.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementsResponseBase.IsSuccess">
+            <summary>
+            True if all operations were successful.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementsResponseBase.UserEntitlement">
+            <summary>
+            Result of the user entitlement after the operations have been applied.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.Extension">
+            <summary>
+            An extension assigned to a user
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.Extension.Id">
+            <summary>
+            Gallery Id of the Extension.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.Extension.Name">
+            <summary>
+            Friendly name of this extension.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.Extension.Source">
+            <summary>
+            Source of this extension assignment. Ex: msdn, account, none, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.Extension.AssignmentSource">
+            <summary>
+            Assignment source for this extension. I.e. explicitly assigned or from a group rule.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.Group">
+            <summary>
+            Project Group (e.g. Contributor, Reader etc.)
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.Group.GroupType">
+            <summary>
+            Group Type
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.Group.DisplayName">
+            <summary>
+            Display Name of the Group
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupType">
+            <summary>
+            Used when adding users to a project.
+            Each GroupType maps to a well-known group.
+            The lowest GroupType should always be ProjectStakeholder
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ProjectEntitlement">
+            <summary>
+            Relation between a project and the user's effective permissions in that project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ProjectEntitlement.ProjectRef">
+            <summary>
+            Project Ref 
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ProjectEntitlement.Group">
+            <summary>
+            Project Group (e.g. Contributor, Reader etc.)
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ProjectEntitlement.IsProjectPermissionInherited">
+            <summary>
+            [Deprecated] Whether the user is inheriting permissions to a project through a Azure DevOps or AAD group membership.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ProjectEntitlement.ProjectPermissionInherited">
+            <summary>
+            Whether the user is inheriting permissions to a project through a Azure DevOps or AAD group membership.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ProjectEntitlement.TeamRefs">
+            <summary>
+            Team Ref.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ProjectEntitlement.AssignmentSource">
+            <summary>
+            Assignment Source (e.g. Group or Unknown).
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlement">
+            <summary>
+            A group entity with additional properties including its license, extensions, and project membership
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlement.Id">
+            <summary>
+            The unique identifier which matches the Id of the GraphMember.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlement.Group">
+            <summary>
+            Member reference.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlement.Members">
+            <summary>
+            Group members. Only used when creating a new group.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlement.LicenseRule">
+            <summary>
+            License Rule.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlement.ExtensionRules">
+            <summary>
+            Extension Rules.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlement.ProjectEntitlements">
+            <summary>
+            Relation between a project and the member's effective permissions in that project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlement.Status">
+            <summary>
+            The status of the group rule.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlement.LastExecuted">
+            <summary>
+            [Readonly] The last time the group licensing rule was executed (regardless of whether any changes were made).
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ProjectRef">
+            <summary>
+            A reference to a project
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ProjectRef.Id">
+            <summary>
+            Project ID.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.ProjectRef.Name">
+            <summary>
+            Project Name.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.TeamRef">
+            <summary>
+            A reference to a team
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.TeamRef.Id">
+            <summary>
+            Team ID
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.TeamRef.Name">
+            <summary>
+            Team Name
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementFactory.CreateUserEntitlement(System.Guid)">
+            <summary>
+            Create a base UserEntitlement object.
+            </summary>
+            <param name="id">Identitifier of UserEntitlement who already exists in the Azure DevOps organization.</param>
+            <returns>UserEntitlement object with identitifier given.</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementFactory.CreateUserEntitlement(System.String,System.String)">
+            <summary>
+            Create a base UserEntitlement object.
+            </summary>
+            <param name="email">Email of the user to be invited.</param>
+            <param name="originId">OriginId of the user in the AAD tenant. This is optional for AAD-backed organizations and
+            not needed for non-AAD backed organizations. If not given, a lookup by email in the tenant will 
+            be done for AAD-backed organizations.
+            </param>
+            <returns>UserEntitlement object with identitifier(s) given.</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementFactory.CreateGroupEntitlement(System.Guid)">
+            <summary>
+            Create a base GroupEntitlement object.
+            </summary>
+            <param name="id">Identitifier of GroupEntitlement who already exists in the Azure DevOps organization.</param>
+            <returns>GroupEntitlement object with identitifier given.</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementFactory.CreateGroupEntitlementWithDisplayName(System.String)">
+            <summary>
+            Create a base GroupEntitlement object.
+            </summary>
+            <param name="displayName">The display name of thee Azure DevOps group to be created.</param>
+            <returns>GroupEntitlement object with identitifier given.</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementFactory.CreateGroupEntitlementWithOriginId(System.String)">
+            <summary>
+            Create a base GroupEntitlement object.
+            </summary>
+            <param name="originId">OriginId of the group in the AAD tenant.</param>
+            <returns>GroupEntitlement object with identitifier given.</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.AddGroupEntitlementAsync(Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlement,System.Nullable{Microsoft.VisualStudio.Services.GroupLicensingRule.RuleOption},System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Create a group entitlement with license rule, extension rule.
+            </summary>
+            <param name="groupEntitlement">GroupEntitlement object specifying License Rule, Extensions Rule for the group. Based on the rules the members of the group will be given licenses and extensions. The Group Entitlement can be used to add the group to another project level groups</param>
+            <param name="ruleOption">RuleOption [ApplyGroupRule/TestApplyGroupRule] - specifies if the rules defined in group entitlement should be created and applied to it’s members (default option) or just be tested</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.DeleteGroupEntitlementAsync(System.Guid,System.Nullable{Microsoft.VisualStudio.Services.GroupLicensingRule.RuleOption},System.Nullable{System.Boolean},System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Delete a group entitlement.
+            </summary>
+            <param name="groupId">ID of the group to delete.</param>
+            <param name="ruleOption">RuleOption [ApplyGroupRule/TestApplyGroupRule] - specifies if the rules defined in group entitlement should be deleted and the changes are applied to it’s members (default option) or just be tested</param>
+            <param name="removeGroupMembership">Optional parameter that specifies whether the group with the given ID should be removed from all other groups</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.GetGroupEntitlementAsync(System.Guid,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Get a group entitlement.
+            </summary>
+            <param name="groupId">ID of the group.</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.UpdateGroupEntitlementAsync(Microsoft.VisualStudio.Services.WebApi.Patch.Json.JsonPatchDocument,System.Guid,System.Nullable{Microsoft.VisualStudio.Services.GroupLicensingRule.RuleOption},System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Update entitlements (License Rule, Extensions Rule, Project memberships etc.) for a group.
+            </summary>
+            <param name="document">JsonPatchDocument containing the operations to perform on the group.</param>
+            <param name="groupId">ID of the group.</param>
+            <param name="ruleOption">RuleOption [ApplyGroupRule/TestApplyGroupRule] - specifies if the rules defined in group entitlement should be updated and the changes are applied to it’s members (default option) or just be tested</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.GetGroupEntitlementsAsync(System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Get the group entitlements for an account.
+            </summary>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.AddMemberEntitlementAsync(Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlement,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Used to add members to a project in an account. It adds them to project groups, assigns licenses, and assigns extensions.
+            </summary>
+            <param name="memberEntitlement">Member model for where to add the member and what licenses and extensions they should receive.</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.DeleteMemberEntitlementAsync(System.Guid,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Deletes members from an account
+            </summary>
+            <param name="memberId">memberId of the member to be removed.</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.GetMemberEntitlementAsync(System.Guid,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Used to get member entitlement information in an account
+            </summary>
+            <param name="memberId"></param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.GetMemberEntitlementsAsync(System.Int32,System.Int32,System.String,System.String,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Used to get member entitlement information in an account
+            </summary>
+            <param name="top"></param>
+            <param name="skip"></param>
+            <param name="filter"></param>
+            <param name="select"></param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.UpdateMemberEntitlementAsync(Microsoft.VisualStudio.Services.WebApi.Patch.Json.JsonPatchDocument,System.Guid,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Used to edit a member in an account. Edits groups, licenses, and extensions.
+            </summary>
+            <param name="document">document of operations to be used</param>
+            <param name="memberId">member Id of the member to be edit</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.UpdateMemberEntitlementsAsync(Microsoft.VisualStudio.Services.WebApi.Patch.Json.JsonPatchDocument,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Used to edit multiple members in an account. Edits groups, licenses, and extensions.
+            </summary>
+            <param name="document">JsonPatch document</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.AddMemberToGroupAsync(System.Guid,System.Guid,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Add a member to a Group.
+            </summary>
+            <param name="groupId">Id of the Group.</param>
+            <param name="memberId">Id of the member to add.</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.GetGroupMembersAsync(System.Guid,System.Nullable{System.Int32},System.String,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Get direct members of a Group.
+            </summary>
+            <param name="groupId">Id of the Group.</param>
+            <param name="maxResults">Maximum number of results to retrieve.</param>
+            <param name="pagingToken">Paging Token from the previous page fetched. If the 'pagingToken' is null, the results would be fetched from the beginning of the Members List.</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.RemoveMemberFromGroupAsync(System.Guid,System.Guid,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Remove a member from a Group.
+            </summary>
+            <param name="groupId">Id of the group.</param>
+            <param name="memberId">Id of the member to remove.</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.AddUserEntitlementAsync(Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlement,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Add a user, assign license and extensions and make them a member of a project group in an account.
+            </summary>
+            <param name="userEntitlement">UserEntitlement object specifying License, Extensions and Project/Team groups the user should be added to.</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.SearchUserEntitlementsAsync(System.String,System.Nullable{Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.UserEntitlementProperty},System.String,System.String,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Get a paged set of user entitlements matching the filter and sort criteria built with properties that match the select input.
+            </summary>
+            <param name="continuationToken">Continuation token for getting the next page of data set. If null is passed, gets the first page.</param>
+            <param name="select">Comma (",") separated list of properties to select in the result entitlements. names of the properties are - 'Projects, 'Extensions' and 'Grouprules'.</param>
+            <param name="filter">Equality operators relating to searching user entitlements seperated by and clauses. Valid filters include: licenseId, licenseStatus, userType, and name. licenseId: filters based on license assignment using license names. i.e. licenseId eq 'Account-Stakeholder' or licenseId eq 'Account-Express'. licenseStatus: filters based on license status. currently only supports disabled. i.e. licenseStatus eq 'Disabled'. To get disabled basic licenses, you would pass (licenseId eq 'Account-Express' and licenseStatus eq 'Disabled') userType: filters off identity type. Suppored types are member or guest i.e. userType eq 'member'. name: filters on if the user's display name or email contians given input. i.e. get all users with "test" in email or displayname is "name eq 'test'". A valid query could be: (licenseId eq 'Account-Stakeholder' or (licenseId eq 'Account-Express' and licenseStatus eq 'Disabled')) and name eq 'test' and userType eq 'guest'.</param>
+            <param name="orderBy">PropertyName and Order (separated by a space ( )) to sort on (e.g. lastAccessed desc). Order defaults to ascending. valid properties to order by are dateCreated, lastAccessed, and name</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.UpdateUserEntitlementsAsync(Microsoft.VisualStudio.Services.WebApi.Patch.Json.JsonPatchDocument,System.Nullable{System.Boolean},System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Edit the entitlements (License, Extensions, Projects, Teams etc) for one or more users.
+            </summary>
+            <param name="document">JsonPatchDocument containing the operations to perform.</param>
+            <param name="doNotSendInviteForNewUsers">Whether to send email invites to new users or not</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.DeleteUserEntitlementAsync(System.Guid,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Delete a user from the account.
+            </summary>
+            <param name="userId">ID of the user.</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.GetUserEntitlementAsync(System.Guid,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Get User Entitlement for a user.
+            </summary>
+            <param name="userId">ID of the user.</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.UpdateUserEntitlementAsync(Microsoft.VisualStudio.Services.WebApi.Patch.Json.JsonPatchDocument,System.Guid,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Edit the entitlements (License, Extensions, Projects, Teams etc) for a user.
+            </summary>
+            <param name="document">JsonPatchDocument containing the operations to perform on the user.</param>
+            <param name="userId">ID of the user.</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementManagementHttpClient.GetUsersSummaryAsync(System.String,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            [Preview API] Get summary of Licenses, Extension, Projects, Groups and their assignments in the collection.
+            </summary>
+            <param name="select">Comma (",") separated list of properties to select. Supported property names are {AccessLevels, Licenses, Projects, Groups}.</param>
+            <param name="userState"></param>
+            <param name="cancellationToken">The cancellation token to cancel operation.</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementOperationReference" -->
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementOperationReference.HaveResultsSucceeded">
+            <summary>
+            True if all operations were successful
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementOperationReference.Completed">
+            <summary>
+            Operation completed with success or failure
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.MemberEntitlementOperationReference.Results">
+            <summary>
+            List of results for each operation
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlementOperationReference.HaveResultsSucceeded">
+            <summary>
+            True if all operations were successful.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlementOperationReference.Completed">
+            <summary>
+            Operation completed with success or failure.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Services.MemberEntitlementManagement.WebApi.GroupEntitlementOperationReference.Results">
+            <summary>
+            List of results for each operation.
+            </summary>
+        </member>
+    </members>
+</doc>
